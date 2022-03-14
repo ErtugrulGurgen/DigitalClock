@@ -10,7 +10,7 @@ const updateDisplay = () => {
     let newMinute = Time.getMinutes();
     let newSecond = Time.getSeconds();
 
-    if (newHour >= 12){
+    if (newHour > 12){
         newHour -= 12;
         amPmById.textContent = 'PM'
     }else{
