@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    color: white;
+}
+div{
+    margin: 230px 30vw;
+    text-align: center;
+    font-size: 5vw;
+    border: 5px solid rgb(64, 64, 129);
+    border-radius: 1rem;
+    background-color: rgba(6, 6, 44, 0.664);
+}
